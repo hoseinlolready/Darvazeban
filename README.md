@@ -46,4 +46,4 @@ If you found Darvazeban useful and would like to support its development, you ca
 
 📝 License
 
-This project is open-source and available under the ... License.
+This project is open-source and available under the MIT License.
