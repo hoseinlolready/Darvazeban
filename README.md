@@ -2,7 +2,7 @@
 <h3>🛡️ Darvazeban Panel</h3>
 <p>
 <img src="https://img.shields.io/badge/Python-3.10+-blue.svg?style=flat&logo=python" alt="Python 3.10+">
-<img src="https://img.shields.io/github/license/hoseinlolready/Darvazeban" />
+<img src="https://img.shields.io/github/license/hoseinlolready/Darvazeban?style=flat" />
 <img src="https://img.shields.io/badge/Status-Stable-orange.svg" alt="Status">
 <img src="https://img.shields.io/github/stars/hoseinlolready/Darvazeban" />
 <a href="https://t.me/HOSEINLOL" target="_blank">
