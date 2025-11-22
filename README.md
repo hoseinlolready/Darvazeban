@@ -1,10 +1,10 @@
 <div align="center">
-<h3>🛡️ Darvazeban Panel</h3>
+<h3>🛡️ RahGozar Panel</h3>
 <p>
 <img src="https://img.shields.io/badge/Python-3.10+-blue.svg?style=flat&logo=python" alt="Python 3.10+">
-<img src="https://img.shields.io/github/license/hoseinlolready/Darvazeban?style=flat" />
+<img src="https://img.shields.io/github/license/hoseinlolready/RahGozar?style=flat" />
 <img src="https://img.shields.io/badge/Status-Stable-orange.svg" alt="Status">
-<img src="https://img.shields.io/github/stars/hoseinlolready/Darvazeban" />
+<img src="https://img.shields.io/github/stars/hoseinlolready/RahGozar" />
 <a href="https://t.me/HOSEINLOL" target="_blank">
     <img src="https://img.shields.io/badge/telegram-channel-blue&logo=telegram" />
 </p>
@@ -15,12 +15,12 @@
 
 📖 Overview
 
-Darvazeban (the Persian word for "Gatekeeper") is a Tunnel manager tool that
+RahGozar is a Tunnel manager tool that
 provides a simple and easy-to-use user interface for managing hundreds of Tunnels powered by Darvazeban Core built using Pure Python
 
-🚀 Why use Darvazeban?
+🚀 Why use RahGozar?
 
-Darvazeban is user-friendly, reliable and easy-to-use. It lets you to create many Tunnels for your users without any complicated configuration.
+RahGozar is user-friendly, reliable and easy-to-use. It lets you to create many Tunnels for your users without any complicated configuration.
 Using its built-in web UI, you are able to monitor, modify and limit users.
 
 ✨ Features
