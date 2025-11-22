@@ -83,49 +83,6 @@ def cli_manager():
         runner()
 
 
-def cli_manager():
-    while True:
-        print("=== Rahgozar Manager ===")
-        print("1) Add User")
-        print("2) Delete User")
-        print("3) Run Panel + Core")
-        print("4) Exit")
-        
-        choice = input("Select option: ").strip()
-
-        if choice == "1":
-            user = input("Enter username: ").strip()
-            pwd = input("Enter password: ").strip()
-            ph, salt = hash_password(pwd)
-
-            try:
-                with get_db() as conn:
-                    conn.execute("INSERT INTO users (username, password_hash, salt) VALUES (?, ?, ?)",
-                                 (user, ph, salt))
-                print(f"[OK] User '{user}' added.")
-            except:
-                print("[ERR] This user already exists.")
-
-        elif choice == "2":
-            user = input("Enter username to delete: ").strip()
-            with get_db() as conn:
-                conn.execute("DELETE FROM users WHERE username = ?", (user,))
-            print(f"[OK] User '{user}' deleted (if existed).")
-
-        elif choice == "3":
-            print("Starting Panel + Core...")
-            runner()
-            print("Stopped.")
-
-        elif choice == "4":
-            print("Goodbye!")
-            sys.exit(0)
-
-        else:
-            print("Invalid option.")
-
-
-
 
 
 if __name__ == "__main__":
