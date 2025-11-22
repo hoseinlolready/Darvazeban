@@ -33,7 +33,7 @@ Using its built-in web UI, you are able to monitor, modify and limit users.
 
 🛠️ Installation Guide
 
-Run the following command to install Marzban with SQLite database:
+Run the following command to install RahGozar with SQLite database:
 
 ```bash
 sudo bash -c "$(curl -sL https://raw.githubusercontent.com/hoseinlolready/RahGozar/refs/heads/main/scripts/installer.sh)"
