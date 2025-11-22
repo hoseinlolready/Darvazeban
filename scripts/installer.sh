@@ -11,7 +11,7 @@ echo -e "${GREEN}Downloading the Rahgozar Files...${NC}"
 wget -P /opt/Rahgozar/ https://raw.githubusercontent.com/hoseinlolready/RahGozar/refs/heads/main/codes/panel.py
 wget -P /opt/Rahgozar/ https://raw.githubusercontent.com/hoseinlolready/RahGozar/refs/heads/main/codes/core.py
 wget -P /opt/Rahgozar/ https://raw.githubusercontent.com/hoseinlolready/RahGozar/refs/heads/main/codes/main.py
-wget -P /opt/Rahgozar/ https://raw.githubusercontent.com/hoseinlolready/RahGozar/refs/heads/main/codes/script.py
+wget -P /opt/Rahgozar/ https://raw.githubusercontent.com/hoseinlolready/RahGozar/refs/heads/main/code/script.py
 
 echo -e "${GREEN}Setuping the Rahgozar Panel...${NC}"
 
