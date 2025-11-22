@@ -5,7 +5,9 @@ import select
 import time
 import sqlite3
 import logging
+from requests import get
 
+ip = get('https://api.ipify.org').text
 DB_NAME = "forwarder.db"
 POLL_INTERVAL = 2
 IDLE_TIMEOUT = 3600
@@ -150,7 +152,7 @@ class ForwarderCore:
             self.listeners[r_id] = srv
             self.rule_signatures[r_id] = (rule['listen_port'], rule['target_ip'], rule['target_port'])
             
-            logging.info(f"Started :{rule['listen_port']} -> {rule['target_ip']}:{rule['target_port']}")
+            logging.info(f"Started {ip}:{rule['listen_port']} -> {rule['target_ip']}:{rule['target_port']}")
 
             while self.running and r_id in self.listeners:
                 try:
